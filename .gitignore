@@ -1,9 +1,3 @@
-*.o
-.DS_Store
-.*.swp
-/env
-/.config
-/.config.old
 /bin
 /build_dir
 /staging_dir
@@ -11,8 +5,9 @@
 /logs
 /feeds.conf
 /files
-/package/feeds
-/package/openwrt-packages
+*.o
+.DS_Store
+.*.swp
 key-build*
 *.orig
 *.rej
